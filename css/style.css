@@ -189,11 +189,12 @@ footer {
 	width: 100%;
 }
 
-.footer-div h2{
+.footer-div .logo-footer{
 	font-size: 24px;
 	line-height: 32px;
 	font-family: 'Poppins bold';
 	margin-bottom: 30px;
+	color: #fff;
 }
 
 .footer-div p {
