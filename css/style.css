@@ -46,7 +46,7 @@
 .navbar-ul li a{
 	margin-left: 45px;
 	font-size: 12px;
-	font-family: 'Poppins medium2';
+	font-family: 'Poppins medium';
 	color: #fff;
 	text-transform: uppercase;
 }
@@ -128,7 +128,7 @@
 
 .article-text p:nth-child(2) {	
 	font-size: 16px;
-	font-family: 'Poppins medium2';
+	font-family: 'Poppins medium';
 }
 
 .article-text p:nth-child(3) {
@@ -200,7 +200,7 @@ footer {
 .footer-div p {
 	margin-top: 15px;
 	font-size: 14px;
-	font-family: 'Poppins medium2';
+	font-family: 'Poppins medium';
 	line-height: 19px;
 	color: #B1B1B1;
 }
