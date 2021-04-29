@@ -92,10 +92,10 @@
   	position: sticky;
 	top: 0px;
 	left: 139px;
+	margin-top: 60px;
 	padding: 0 0 0 139px;
 	font-size: 20px;
 	color: #fff;
-	background-color: pink;
 }
 
 /* article section area */
@@ -144,15 +144,14 @@
 	width: 100%;
 }
 
-.article-images img:first-child {
+.article-images img:first-child, img:nth-child(2) {
 	display: inline-block;
-	/*margin-right: 15px;*/
-	width: 50%;
+	vertical-align: top;
+	width: 49%;
 }
 
-.article-images img:nth-child(2) {
-	display: inline-block;
-	width: 49%;
+.article-images img:first-child {
+	margin-right: 5px;
 }
 
 .article-img-3 {
