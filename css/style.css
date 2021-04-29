@@ -1,15 +1,7 @@
-
-/* globals */
+/* global */
 .padding-right-left {
 	padding: 0 139px;
 }
-
-.space-between {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
 
 /* banner styles */
 .banner-img-div {
@@ -20,6 +12,7 @@
 
 .banner-img-div img {
 	width: 100%;
+	height: 100%;
 }
 
 .banner-content {
@@ -32,18 +25,18 @@
 } 
 
 /*header styles*/
-.navbar {
-	position: absolute;
-	top: 0;
-	right: 139px;
-	display: inline-block;
-}
-
 .logo {
 	display: inline-block;
 	font-size: 14px;
 	font-family: 'Poppins SemiBold'; 
 	color: #fff;
+}
+
+.navbar {
+	position: absolute;
+	top: 0;
+	right: 139px;
+	display: inline-block;
 }
 
 .navbar-ul li{
@@ -60,7 +53,7 @@
 
 /* banner content styles*/
 .banner-content-div {
-	margin-top: 207px;
+	margin-top: 150px;
 }
 
 .banner-content-div h1{
@@ -77,22 +70,11 @@
 }
 
 /* banner bottom styles*/
-.banner-bottom {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin: 50px 0;
+.buttons {
+	position: absolute;
+	bottom: 100px;
+	right: 139px;
 }
-
-/*.sticky {
-	position: sticky;
-	top: 50px;
-	left: 0;
-	width: 300px;
-	font-size: 20px;
-	font-family: 'Poppins bold';
-}
-*/
 
 .buttons button{
 	width: 51px;
@@ -105,6 +87,16 @@
 	background-color: #5863F8;
 }
 
+.sticky {
+	position: -webkit-sticky;
+  	position: sticky;
+	top: 0px;
+	left: 139px;
+	padding: 0 0 0 139px;
+	font-size: 20px;
+	color: #fff;
+	background-color: pink;
+}
 
 /* article section area */
 .article-section {
@@ -145,45 +137,28 @@
 }
 
 .article-images {
-	height: 100%;
+	margin-bottom: 50px;
 }
-
-/*.article-images-div {
-	display: flex;	
-	justify-content: center;
-	align-items: center;
-}*/
 
 .article-images-div {
-	display: flex;
-	/*flex-direction: row-reverse;*/
-	justify-content: center;
-	align-items: center;
 	width: 100%;
-	height: 100%;
 }
 
-/*.article-images-div img {
-	width: 100%;
-}*/
-
-.article-images-div img:first-child {
-	/*display: inline-block;*/
-	margin-right: 15px;
+.article-images img:first-child {
+	display: inline-block;
+	/*margin-right: 15px;*/
+	width: 50%;
 }
 
-.article-images-div img:nth-child(2) {
-	/*display: inline-block;*/
-
+.article-images img:nth-child(2) {
+	display: inline-block;
+	width: 49%;
 }
-
-
 
 .article-img-3 {
 	margin-top: 15px;
 	width: 100%;
 }
-
 
 .article-btn {
 	width: 184px;
